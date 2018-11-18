@@ -6,7 +6,7 @@ using namespace std;
 
 int main()
 {
-    iotDataQueue temperature, humidity; //create two queue objects
+    DataQueue temperature, humidity; //create two queue objects
 
     temperature.init();
     humidity.init();

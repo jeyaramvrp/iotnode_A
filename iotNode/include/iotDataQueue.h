@@ -2,11 +2,11 @@
 #define IOTDATAQUEUE_H
 
 
-class iotDataQueue
+class DataQueue
 {
     public:
-        iotDataQueue();
-        virtual ~iotDataQueue();
+        DataQueue();
+        virtual ~DataQueue();
         void init();
         void qput(int i);
         int qget();

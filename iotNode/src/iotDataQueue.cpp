@@ -3,23 +3,23 @@
 
 using namespace std;
 
-iotDataQueue::iotDataQueue()
+DataQueue::DataQueue()
 {
     //ctor
 }
 
-iotDataQueue::~iotDataQueue()
+DataQueue::~DataQueue()
 {
     //dtor
 }
 
-void iotDataQueue::init()
+void DataQueue::init()
 {
     rloc = sloc = 0;
 }
 
 //initialise the queue
-void iotDataQueue::qput(int i)
+void DataQueue::qput(int i)
 {
     if(sloc==100){
         cout << "queue is full. \n";
@@ -30,7 +30,7 @@ void iotDataQueue::qput(int i)
 }
 
 //get an integer from the queue
-int iotDataQueue::qget()
+int DataQueue::qget()
 {
     if(rloc == sloc){
         cout << "queue underflow. \n";
