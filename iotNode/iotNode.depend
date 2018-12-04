@@ -9,3 +9,27 @@
 	<iostream>
 	"iotDataQueue.h"
 
+1543949095 source:c:\users\klas\desktop\iot masters\software engg\portfolio\iotnode_a\iotnode\src\iotdataqueue.cpp
+	<iostream>
+	"../include/iotDataQueue.h"
+
+1543948323 c:\users\klas\desktop\iot masters\software engg\portfolio\iotnode_a\iotnode\include\iotdataqueue.h
+
+1543949220 source:c:\users\klas\desktop\iot masters\software engg\portfolio\iotnode_a\iotnode\main.cpp
+	<iostream>
+	"include/iotDataQueue.h"
+	"include/iotHumiditySensor.h"
+	"include/iotTempSensor.h"
+
+1543948785 c:\users\klas\desktop\iot masters\software engg\portfolio\iotnode_a\iotnode\include\iothumiditysensor.h
+	"iotSensor.h"
+
+1543948785 c:\users\klas\desktop\iot masters\software engg\portfolio\iotnode_a\iotnode\include\iotsensor.h
+
+1543948785 c:\users\klas\desktop\iot masters\software engg\portfolio\iotnode_a\iotnode\include\iottempsensor.h
+	"iotSensor.h"
+
+1543949246 source:c:\users\klas\desktop\iot masters\software engg\portfolio\iotnode_a\iotnode\src\iothumiditysensor.cpp
+	<iostream>
+	"../include/iotHumiditySensor.h"
+

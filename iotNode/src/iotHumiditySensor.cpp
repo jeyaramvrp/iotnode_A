@@ -1,5 +1,5 @@
 #include <iostream>
-#include "iotHumiditySensor.h"
+#include "../include/iotHumiditySensor.h"
 
 using namespace std;
 
@@ -16,8 +16,8 @@ HumiditySensor::~HumiditySensor()
 
 int HumiditySensor::read()
 {
-    //Return garbage value since this application doesn't 
-    //involve actual sensor at this moment. 
+    //Return garbage value since this application doesn't
+    //involve actual sensor at this moment.
     return data;
 }
 
@@ -27,7 +27,7 @@ void HumiditySensor::enabledisable(int argid, int enadis)
        status = enadis;
    }
 }
-        
+
 void HumiditySensor::printproperties()
 {
         cout<<"Relative Humidity Minimum:"<<rhmin<<"/n";

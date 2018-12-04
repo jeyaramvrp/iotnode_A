@@ -1,5 +1,5 @@
 #include <iostream>
-#include "iotTempSensor.h"
+#include "../include/iotTempSensor.h"
 
 using namespace std;
 
@@ -17,8 +17,8 @@ TempSensor::~TempSensor()
 
 int TempSensor::read()
 {
-    //Return garbage value since this application doesn't 
-    //involve actual sensor at this moment. 
+    //Return garbage value since this application doesn't
+    //involve actual sensor at this moment.
     return data;
 }
 
@@ -28,7 +28,7 @@ void TempSensor::enabledisable(int argid, int enadis)
        status = enadis;
    }
 }
-        
+
 void TempSensor::printproperties()
 {
         cout<<"Minimum Temp:"<<min<<"/n";

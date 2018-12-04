@@ -1,7 +1,7 @@
 #include <iostream>
-#include "iotDataQueue.h"
-#include "iotHumiditySensor.h"
-#include "iotTempSensor.h"
+#include "include/iotDataQueue.h"
+#include "include/iotHumiditySensor.h"
+#include "include/iotTempSensor.h"
 
 //this is an example
 using namespace std;
