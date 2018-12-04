@@ -1,5 +1,6 @@
 #include <iostream>
 #include "iotDataQueue.h"
+#include "iotSensor.h"
 
 //this is an example
 using namespace std;

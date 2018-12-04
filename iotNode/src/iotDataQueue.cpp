@@ -21,7 +21,7 @@ void DataQueue::init()
 //initialise the queue
 void DataQueue::qput(int i)
 {
-    if(sloc==100){
+    if(sloc==IOT_DATAQUEUE_SIZE){
         cout << "queue is full. \n";
         return;
     }

@@ -1,6 +1,7 @@
 #ifndef IOTDATAQUEUE_H
 #define IOTDATAQUEUE_H
 
+#define IOT_DATAQUEUE_SIZE 10
 
 class DataQueue
 {
@@ -14,7 +15,7 @@ class DataQueue
     protected:
 
     private:
-        int q[10];
+        int q[IOT_DATAQUEUE_SIZE];
         int sloc, rloc;
 };
 
