@@ -1,6 +1,7 @@
 #include <iostream>
 #include "iotDataQueue.h"
-#include "iotSensor.h"
+#include "iotHumiditySensor.h"
+#include "iotTempSensor.h"
 
 //this is an example
 using namespace std;
@@ -8,6 +9,11 @@ using namespace std;
 int main()
 {
     DataQueue temperature, humidity; //create two queue objects
+    TempSensor t;
+    HumiditySensor h;
+
+    t.read();
+    h.read();
 
     temperature.init();
     humidity.init();

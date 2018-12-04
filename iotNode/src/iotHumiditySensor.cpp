@@ -1,5 +1,5 @@
 #include <iostream>
-#include "iotSensor.h"
+#include "iotHumiditySensor.h"
 
 using namespace std;
 
@@ -14,7 +14,7 @@ HumiditySensor::~HumiditySensor()
     //ctor
 }
 
-void HumiditySensor::read()
+int HumiditySensor::read()
 {
     //Return garbage value since this application doesn't 
     //involve actual sensor at this moment. 

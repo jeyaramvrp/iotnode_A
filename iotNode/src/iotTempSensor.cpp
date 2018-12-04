@@ -1,17 +1,8 @@
 #include <iostream>
-#include "iotSensor.h"
+#include "iotTempSensor.h"
 
 using namespace std;
 
-Sensor::Sensor()
-{
-    //ctor
-}
-
-Sensor::~Sensor()
-{
-    //dtor
-}
 
 TempSensor::TempSensor()
 {
@@ -24,7 +15,7 @@ TempSensor::~TempSensor()
     //ctor
 }
 
-void TempSensor::read()
+int TempSensor::read()
 {
     //Return garbage value since this application doesn't 
     //involve actual sensor at this moment. 
